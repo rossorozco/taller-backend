@@ -1,0 +1,14 @@
+[
+  {"model":"taller.tiposervicio","pk":1,"fields":{"nombre":"Cambio de aceite","intervalo_km":3000,"intervalo_dias":90,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":2,"fields":{"nombre":"Cambio de filtros","intervalo_km":6000,"intervalo_dias":180,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":3,"fields":{"nombre":"Revisión de frenos","intervalo_km":10000,"intervalo_dias":180,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":4,"fields":{"nombre":"Cambio de pastillas","intervalo_km":15000,"intervalo_dias":365,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":5,"fields":{"nombre":"Revisión de cadena","intervalo_km":1000,"intervalo_dias":30,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":6,"fields":{"nombre":"Afinación","intervalo_km":10000,"intervalo_dias":180,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":7,"fields":{"nombre":"Cambio de bujías","intervalo_km":12000,"intervalo_dias":365,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":8,"fields":{"nombre":"Servicio general","intervalo_km":5000,"intervalo_dias":180,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":9,"fields":{"nombre":"Alineación","intervalo_km":10000,"intervalo_dias":180,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":10,"fields":{"nombre":"Balanceo","intervalo_km":10000,"intervalo_dias":180,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":11,"fields":{"nombre":"Cambio de refrigerante","intervalo_km":40000,"intervalo_dias":730,"es_preventivo":true,"activo":true}},
+  {"model":"taller.tiposervicio","pk":12,"fields":{"nombre":"Reparación general","intervalo_km":1000,"intervalo_dias":90,"es_preventivo":false,"activo":true}}
+]

@@ -1,0 +1,20 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DEBUG: "${DEBUG:-0}"
+      SECRET_KEY: "${SECRET_KEY:?Falta_SECRET_KEY_en_.env}"
+      ALLOWED_HOSTS: "${ALLOWED_HOSTS:-localhost,127.0.0.1}"
+      DB_PATH: /data/db.sqlite3
+      CORS_ALLOWED_ORIGINS: "${CORS_ALLOWED_ORIGINS:-*}"
+      CARGAR_DEMO: "${CARGAR_DEMO:-0}"
+      DJANGO_SUPERUSER_USERNAME: "${DJANGO_SUPERUSER_USERNAME:?Falta_usuario_admin_en_.env}"
+      DJANGO_SUPERUSER_PASSWORD: "${DJANGO_SUPERUSER_PASSWORD:?Falta_contrasena_admin_en_.env}"
+      DJANGO_SUPERUSER_EMAIL: "${DJANGO_SUPERUSER_EMAIL:?Falta_correo_admin_en_.env}"
+    volumes:
+      - datos:/data
+
+volumes:
+  datos:
